@@ -1,0 +1,301 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.conatiner
+{
+    width: 100%;
+    min-height: 800px;
+    margin: auto;
+    border: 1px solid black;
+}
+.main
+{
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.main .logo
+{
+    width: 50%;
+    min-height: 60px;
+    flex-direction: row;
+    display: flex;
+}
+ .logo img
+{
+    width: 40%;
+    height: 100px;
+    padding-top: 10px;
+}
+.main h1
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    padding-top: 40px;
+}
+.main .menu
+{
+    width: 50%;
+    min-height: 60px;
+    display: flex;
+    flex-direction: row;
+
+}
+ul
+{
+    list-style-type: none;
+}
+ul li
+{
+    display: inline-block;
+    padding: 15px;
+    padding-top: 40px;
+
+}
+ul li a
+{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+   
+    text-decoration: none;
+}
+img
+{
+    width: 10%;
+    height: 70px;
+    padding-top: 40px;
+}
+.wraper
+{
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+}
+.image
+{
+    width: 100%;
+    min-height: 500px;
+    background-image: url(../imgs/pngtree-a-white-dog-is-sitting-on-mossy-rock-in-forest-image_16216011.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+}
+.image h1
+{
+    font-size: 50px;
+    font-weight: bold;
+    pad: 10px;
+    color: white;
+    padding-top: 14%;
+    margin-left: 5%;
+}
+.image p
+{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 5%;
+    color: white;
+    padding-top: 10px;
+}
+#btn1
+{
+    width: 15%;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-top: 20px;
+
+}
+.box
+{
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+.b1
+{
+    width: 50%;
+    min-height: 400px;
+}
+.b1 h1
+{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+.b1 p
+{
+    font-size: 18px;
+    justify-content: baseline;
+    padding-top: 20px;
+    margin-left: 30px;
+}
+#btn2
+{
+    width: 15%;
+    height: 30px;
+    background-color: white;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.b2
+{
+    width: 50%;
+    min-height: 400px;
+}
+.b2 img
+{
+    width: 80%;
+    height: 90%;
+    margin-left: 10%;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.box2
+{
+    width: 100%;
+    min-height: 200px;
+    background-color: navy;
+}
+.box2 p
+{
+    font-size: 20px;
+    text-align: center;
+    justify-content: baseline;
+    color: white;
+    padding-top: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.box3
+{
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+}
+.pro1
+{
+   width: 30%;
+   min-height: 500px;
+   margin-left: 4%;
+}
+img
+{
+   width: 80%;
+   min-height: 300px;
+   margin-left: 10%;
+}
+h1
+{
+    margin-left: 9%;
+    padding-top: 10px;
+}
+p
+{
+    font-size: 15px;
+    margin-left: 9%;
+    padding-top: 5px;
+
+}
+#btn3
+{
+    width: 30%;
+    height: 30px;
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 9%;
+}
+.pro2
+{
+    width: 30%;
+   min-height: 500px;
+   
+}
+#btn4
+{
+    width: 30%;
+    height: 30px;
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 9%;
+}
+.pro3
+{
+    width: 30%;
+    min-height: 500px;
+    
+}    
+#btn5
+{
+    width: 30%;
+    height: 30px;
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 9%;
+}
+.box4
+{
+    width: 100%;
+    min-height: 400px;
+    background-color: navy;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.box1 .b1
+{
+    width: 50%;
+    min-height: 400px;
+}
+.box4 h2
+{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 50px;
+    padding-top: 10%;
+    color: white;
+
+}
+.box4 h6
+{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 50px;
+    padding-top: 10px;
+}
+.box4 p
+{
+    font-size: 20px;
+    margin-left: 50px;
+    justify-content: baseline;
+    color: white;
+    font-weight: bold;
+    padding-top: 30px;
+}
+.box4 .b2
+{
+    width:50%;
+    min-height: 400px;
+}
